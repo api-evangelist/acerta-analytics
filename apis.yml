@@ -1,8 +1,24 @@
 aid: acerta-analytics
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/acerta-analytics.png
 name: Acerta Analytics
-description: 'Acerta Analytics is a company surfaced as a portfolio company of eqt-ventures and added
-  to the API Evangelist network as a stub for enrichment. Sector: manufacturing-analytics. This profile
-  is a lead awaiting the enrichment pipeline.'
+description: 'Acerta (Acerta Analytics Solutions Inc.) is an industrial AI company whose LinePulse
+  platform applies machine learning to real-time discrete-manufacturing production data to detect
+  and resolve quality defects early. It helps automotive and manufacturing teams reduce scrap, rework,
+  and end-of-line testing while protecting throughput, ingesting data from MES, PLC, and QMS systems
+  and deploying in under 30 days. Surfaced as an EQT Ventures portfolio company; no public developer
+  API or documentation is exposed today (data connectivity is via a private ingestion API and prebuilt
+  integrations such as ETQ and Microsoft).'
 url: https://raw.githubusercontent.com/api-evangelist/acerta-analytics/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -16,6 +32,12 @@ modified: '2026-07-17'
 tags:
 - Company
 - Manufacturing Analytics
+- Industrial AI
+- Machine Learning
+- Quality
+- Automotive
+- Manufacturing
+- Analytics
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +47,18 @@ maintainers:
 common:
 - type: Website
   url: https://acerta.ai/
+- type: About
+  url: https://acerta.ai/about
+- type: Blog
+  url: https://acerta.ai/articles
+- type: Support
+  url: https://acerta.ai/contact/
+- type: PrivacyPolicy
+  url: https://acerta.ai/privacy-policy/
+- type: DomainSecurity
+  url: security/acerta-analytics-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
